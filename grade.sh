@@ -15,7 +15,7 @@ if [ ! -f "student-submission/ListExamples.java" ]; then
     exit 1
 fi
 
-cp -r student-submission/ grading-area/
+cp -r student-submission/* grading-area/
 
 cp TestListExamples.java grading-area/
 
